@@ -1,0 +1,37 @@
+name: modern_calculator
+description: A modern, stylish, multi-theme scientific calculator built with Flutter.
+version: 1.0.0+1
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: ">=3.13.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # No external packages are required for this project!
+  # Everything is built using pure Dart + Flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # If you later want to add custom fonts (recommended for premium look):
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf
+  #       - asset: fonts/Roboto-Bold.ttf
+  #         weight: 700
+  #   - family: Orbitron
+  #     fonts:
+  #       - asset: fonts/Orbitron-Regular.ttf
+  #       - asset: fonts/Orbitron-Bold.ttf
+  #         weight: 700
+
+  # assets:
+  #   - assets/images/
